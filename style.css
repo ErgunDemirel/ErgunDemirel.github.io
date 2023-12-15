@@ -1,0 +1,305 @@
+.About button{
+    margin-top: 250;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 14px 24px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 20;
+    margin-left: 400;
+    transition: color 0.3s ease;
+}
+
+.About button:hover {
+    color: black;
+}
+
+.body {
+    background-color: darkred;
+    color: white;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.PY {
+    font-family: "Roboto", sans-serif;
+    font-size: 70;
+    margin-top: 5px;
+    line-height: 0.9px;
+    opacity: 0.7;
+    padding: 0 ;
+}
+
+.name {
+    font-family: "Roboto", sans-serif;
+    font-size: 70;
+    line-height: 2.1;
+    padding: 0;
+}
+
+.welcome{
+    font-family: 'Fira Code', monospace;
+    font-size: 15;
+    color: red;
+    line-height: 1.1;
+    padding: 0;
+}
+
+
+.text {
+    height: 0;
+    margin-left: 400;
+    margin-top: 140;
+}
+
+.infos {
+    margin-top: 55;
+    font-family: "Roboto", sans-serif;
+    opacity: 0.5;
+
+}
+
+.pylogo {
+    width: 220;
+    float: right;
+}
+
+.jsLogo {
+    width: 220;
+    float: right;
+    margin-right: 40;
+}
+
+.Plogo {
+    margin-top: 60;
+    margin-right: 155;
+}
+
+.links {
+    float: right;
+    margin-top: 23;
+    font-size: 20;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.kon {
+    margin-right: 45px;
+}
+
+.abou {
+    margin-right: 45px;
+}
+
+.proj {
+    margin-right: 10;
+}
+
+.kon:hover {
+    color: black;
+}
+
+.abou:hover {
+    color: black;
+}
+
+.proj:hover {
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: darkred;
+    position: sticky;
+    top: 0;
+    padding: 0 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    box-shadow: 0 5px 80px rgba(0, 0, 0, 0.1);
+    font-size: 20;
+}
+
+nav .Logo,
+footer .Logo{
+    display: flex;
+    align-items: center;
+}
+
+nav .Logo a,
+footer .Logo a {
+    margin-left: 8;
+}
+
+.Logo {
+    width: 100;
+}
+
+nav ul,
+footer .top ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+
+.pbody {
+    font-family: "Roboto", sans-serif;
+    background-color: darkred;
+    color: white;
+}
+
+.movie {
+    width: 550;
+    float: left;
+    margin-left: 450;
+}
+
+.motext {
+    text-align: center;
+    margin-right: 450;
+    
+}
+
+.projekt {
+    margin-top: 500;
+}
+
+.abody {
+    background-color: darkred;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.intro {
+    font-size: 30;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin-top: 10;
+}
+
+.Ergun {
+    margin-top: 110;
+    width: 200;
+    border-radius: 55%;
+}
+
+.me {
+    font-size: 20;
+}
+
+.aboutme {
+    margin-top: 500;
+}
+
+.konk button{
+    margin-top: 50;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 14px 24px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 20;
+    transition: color 0.3s ease;
+    margin-left: 840;
+}
+
+.konk button:hover {
+    color: black;
+}
+
+.konta{
+    text-align: center;
+    margin-top: 500;
+    margin-bottom: 500;
+}
+
+.kbody {
+    font-family: "Roboto", sans-serif;
+    background-color: darkred;
+    text-align: center;
+    color: white;
+}
+
+
+
+/*.insta {
+    width: 90;
+    float: left;
+    margin-left: 485;
+}
+
+.mail {
+    height: 100;
+    width: 85;
+    float: right;
+    margin-right: 485;
+}
+
+.git {
+    float: left;
+    width: 55;
+    margin-left: 350;
+} */
+
+.flex {
+    display: flex;
+    background-color: darkred;
+    justify-content: center;
+}
+
+.flex > div {
+    background-color: darkred;
+    margin: 20;
+    margin-top: 90;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.insta {
+    width: 85;
+}
+
+.mail {
+    width: 85;
+}
+
+.git {
+    width: 85;
+}
+
+.ei button{
+    margin-top: 10;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 14px 24px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 20;
+    margin-left: 890;
+    transition: color 0.3s ease;
+}
+
+.ei button:hover {
+    color: black;
+}
